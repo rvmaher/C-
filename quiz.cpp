@@ -34,5 +34,7 @@ int main()
     }
     std::cout << "Your Score is " << total
               << "\n";
+
+    std::cout << "Your Percentage is << " << (total / (double)3) * 100 << "%";
     return 0;
 }
